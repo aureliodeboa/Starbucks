@@ -78,6 +78,7 @@ h2{
     outline: 0; /*tira o foco de quando clica*/
     width: 100%;
     max-width: 250px;
+    border-radius: 10px;
 }
 
 .header--search button{
@@ -233,4 +234,19 @@ h2{
 .area4--img1{
     background-image: url('../images/bg3.jpg');
     background-position: left;
+}
+
+footer{
+
+    padding: 20px; 
+    text-align: center;
+    background-color: rgb(15, 15, 15);
+    color: rgb(118, 117, 116);
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer img{
+    height: 1rem;
 }
